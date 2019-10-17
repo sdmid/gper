@@ -1,0 +1,157 @@
+.private .private_wrapper {
+  display: flex;
+}
+.private .private_wrapper .left_menu {
+  margin-right: 50px;
+  margin-left: 74px;
+}
+
+.code_box{margin:10px 0;}
+.code_box button{cursor:pointer;padding:2px 10px;height:25px;background:#fff;color:#70a2cc;border-radius:5px;border:1px solid #70a2cc;outline:none;}
+
+.private .private_wrapper .left_menu .item{
+  width: 194px;
+  height: 40px;
+  color: #000;
+  background:rgba(249,249,249,1);
+  font-size: 14px;
+  line-height: 40px;
+  position: relative;
+  padding-left:39px;
+  cursor: pointer;
+}
+.private .private_wrapper .left_menu .item.active{
+  background: #1890FF;
+  color: #fff;
+}
+
+.left_menu .i-icon {
+  font-size: 14px;
+  margin-right: 5px;
+}
+.left_menu .menu-right {
+  float:right;
+  margin-right: 25px;
+  line-height: 40px;
+}
+.left_menu  span.text{
+  opacity:0.85;
+}
+.right_content .border{
+  width:894px;
+  height:3px;
+  border:1px dashed rgba(0,0,0,1);
+  opacity:0.18;
+}
+.right_content .menu_title {
+  font-size:20px;
+  line-height: 20px;
+  font-weight:400;
+  color:rgba(0,0,0,1);
+  opacity:1;
+  margin-bottom: 15px;
+}
+.private_con .private_item {
+  padding-top: 20px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #e8eaec;
+  position: relative;
+}
+.user_info span{
+  display: inline-block;
+  font-size: 12px;
+  line-height: 28px;
+  vertical-align: top;
+  opacity:0.85;
+  color: #000;
+}
+.user_info .vip-crown {
+  position: absolute;
+  width: 28px;
+  left: 5px;
+  top: 6px;
+}
+.user_info .user_image {
+  width: 28px;
+  height: 28px;
+  margin-right: 11px;
+}
+.user_info .userName {
+  color: #1890FF;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.private_item .item_content {
+  color: #000;
+  font-size: 14px;
+  margin: 9px 0 29px 0;
+  line-height: 25px;
+}
+.private_item .buttonBar {
+  text-align: right;
+}
+.private_item .buttonBar span {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 17px;
+  margin-right: 27px;
+  cursor: pointer;
+}
+.private_item .buttonBar span:last-child {
+  margin-right: 0;
+}
+.private_item .buttonBar .detail {
+  color: #1890FF;
+}
+.private_item .buttonBar .i-icon {
+  margin-right: 5px;
+  line-height: 17px;
+}
+.answers_page .pager {
+  text-align: center;
+  margin: 70px 0 30px 0;
+}
+.textContent {
+  padding: 12px 0;
+  position: relative;
+}
+.count_num {
+  position: absolute;
+  bottom: 22px;
+  right: 10px;
+}
+.textContent textarea {
+  width: 100%;
+  padding: 10px;
+  border-color: #dcdee2;
+  line-height: 30px;
+
+}
+.to_name {
+  color: #1890FF;
+  display: inline-block;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.submit_btn {
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+  margin-bottom: 12px;
+  text-align: center;
+  width: 91px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  background: #1890FF;
+  cursor: pointer;
+}
+
+.clear:after{
+  content: ' ';
+  display: block;
+  clear: both;
+}
+.btn_wrapper {
+  border-bottom:1px solid #e8eaec;
+}
