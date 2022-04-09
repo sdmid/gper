@@ -15,7 +15,7 @@
     "iview": "^3.1.5",
     "js-cookie": "^2.2.0",
     "mavon-editor": "^2.6.17",
-    "moment": "^2.23.0",
+    "moment": "^2.29.2",
     "vue": "^2.5.2",
     "vue-cropper": "^0.4.7",
     "vue-lazyload": "^1.2.6",
